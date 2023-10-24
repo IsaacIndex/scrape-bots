@@ -6,7 +6,7 @@ from bs4.element import Comment
 import sqlite3
 
 # Connect to the database (or create it if it doesn't exist)
-conn = sqlite3.connect("data.db")
+conn = sqlite3.connect("d2.db")
 
 # Create a cursor object to execute SQL commands
 cursor = conn.cursor()
